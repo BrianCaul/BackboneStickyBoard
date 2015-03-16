@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Scrum Board App</title>
+	<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<script data-main="js/main" src="js/libs/require/require.js"></script>
+</head>
+<body>
+
+<div id="scrumboardapp">
+
+      <div class="title">
+        <h1>Scrum Board</h1> <button id="addsticky" class="btn btn-primary btn-xs">Add Sticky</button>
+      </div>
+
+      <div class="container-flu">
+
+        <div class="row">
+          <div title="todo" class="list col-md-4">
+            <h3 class="colhead">Todo</h3>
+            <ul title="todo" id="todo-list"></ul>
+          </div>
+          <div title="progress" class="list col-md-4">
+            <h3 class="colhead">In Progress</h3>
+            <ul id="progress-list"></ul>
+          </div>
+          <div title="complete" class="list col-md-4">
+            <h3 class="colhead">Completed</h3>
+            <ul id="complete-list"></ul>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="credits">
+      <p>Created By
+        <a href="https://github.com/BrianCaul">Brian Caul</a>
+      </p>
+      <p>
+        Forked from Skeleton Backbone by 
+        <a href="https://github.com/thomasdavis/backbonetutorials">Thomas Davis</a>. 
+      </p>
+    </div>
+
+</body>
+</html>
